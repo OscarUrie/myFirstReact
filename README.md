@@ -10,3 +10,20 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## PWA with REACT
+
+To use PWA, we need to install pwa-vite plugin
+
+```sh
+yarn add -D vite-plugin-pwa
+```
+ It will create a directory called dev-list/
+
+## Icon for PWA app
+- [Maskable App] can create a simple icons
+- [PWA ICON Generator] can generate all icons for any OS platform
+
+[Maskable App]: <https://maskable.app/editor>
+[PWA ICON Generator]:<https://www.pwabuilder.com/imageGenerator>
