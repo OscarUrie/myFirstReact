@@ -469,6 +469,9 @@ export default defineConfig({
                 ]
             },
             //registerType: 'autoUpdate' para actualizar la PWA
+            /*workbox: { // actualiza la PWA de una forma simple
+                cleanupOutdatedCaches: false,
+            }*/
         })
     ],
 })
